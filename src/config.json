@@ -1,0 +1,34 @@
+{
+  "toolkitVersion": "1.0.0",
+  "thresholds": {
+    "cpuWarningPercent": 80,
+    "cpuCriticalPercent": 90,
+    "ramWarningPercent": 75,
+    "ramCriticalPercent": 88,
+    "diskFreeWarningPercent": 15
+  },
+  "maintenance": {
+    "tempRetentionDays": 2,
+    "emptyRecycleBin": true,
+    "scanWindowsTemp": true
+  },
+  "developerTools": [
+    "git",
+    "node",
+    "npm",
+    "python",
+    "pip",
+    "docker",
+    "code",
+    "cargo",
+    "go",
+    "dotnet"
+  ],
+  "network": {
+    "dnsProbeTargets": [
+      "1.1.1.1",
+      "google.com"
+    ],
+    "maxListeningPortsDisplayed": 20
+  }
+}
